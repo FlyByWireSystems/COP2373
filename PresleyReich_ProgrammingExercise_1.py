@@ -3,7 +3,7 @@ def get_tickets(tickets_left_over):
     # Loop until the user provides a number of tickets they can actually buy
     while True:
         # Ask the user for the number of tickets they want
-        num_str = input(f"Welcome to the ticket seller: How many tickets would you like to buy? (1-4, {tickets_left_over} remaining): ")
+        num_str = input(f"How many tickets would you like to buy today? (1-4, {tickets_left_over} remaining): ")
 
         # Check if the input is a numeric value
         if num_str.isnumeric():
@@ -61,3 +61,4 @@ def main():
 # Call the main function to run whole program
 
 main()
+
