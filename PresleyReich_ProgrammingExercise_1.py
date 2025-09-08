@@ -47,7 +47,7 @@ def display_summary(customers_count):
 # Main program function
 def main():
     # Initialize total tickets available and customer count
-    total_tickets = 20
+    total_tickets = 10
     customers = 0
 
     # Loop until all tickets are sold
@@ -59,4 +59,5 @@ def main():
 
 
 # Call the main function to run whole program
+
 main()
