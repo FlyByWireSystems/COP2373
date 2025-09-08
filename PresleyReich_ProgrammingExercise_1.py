@@ -48,17 +48,18 @@ def display_summary(customers_count):
 def main():
     # Initialize total tickets available and customer count
     total_tickets = 10
-    customers = 0
+    total_customers = 0
 
     # Loop until all tickets are sold
     while total_tickets > 0:
-        total_tickets, customers = process_purchase(total_tickets, customers)
+        total_tickets, total_customers = process_purchase(total_tickets, total_customers)
 
     # Display final summary after all tickets are sold
-    display_summary(customers)
+    display_summary(total_customers)
 
 
 # Call the main function to run whole program
 
 main()
+
 
